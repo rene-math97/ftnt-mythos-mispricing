@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Mythos Mispricing — FTNT Investment Thesis</title>
+  <meta name="description" content="Why Fortinet is the best risk-adjusted trade in cybersecurity. Long thesis with DCF model, comps, and catalyst timeline." />
+
+  <!-- Fonts -->
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════
+     NAV
+════════════════════════════════════════════════ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <div class="nav-logo">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-label="FTNT thesis">
+        <rect width="28" height="28" rx="6" fill="#E31837"/>
+        <path d="M7 8h14M7 14h9M7 20h12" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+      </svg>
+      <span class="nav-brand">FTNT <span class="nav-badge">LONG</span></span>
+    </div>
+    <div class="nav-links">
+      <a href="#dcf">DCF</a>
+      <a href="#comps">Comps</a>
+      <a href="#catalysts">Catalysts</a>
+      <a href="#risks">Risks</a>
+      <a href="#recommendation" class="nav-cta">View Trade →</a>
+    </div>
+    <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════════
+     HERO
+════════════════════════════════════════════════ -->
+<section class="hero" id="hero">
+  <div class="hero-grid-bg" aria-hidden="true"></div>
+  <div class="container">
+    <div class="hero-eyebrow">
+      <span class="tag tag-red">LONG EQUITY</span>
+      <span class="tag tag-muted">CYBERSECURITY</span>
+      <span class="tag tag-muted">APRIL 2026</span>
+    </div>
+
+    <div class="hero-ticker-row">
+      <span class="hero-ticker">NASDAQ: FTNT</span>
+      <div class="hero-price-pill">
+        <span class="hero-price-current">$82.53</span>
+        <span class="hero-price-arrow">→</span>
+        <span class="hero-price-target">$106.07</span>
+        <span class="hero-price-upside">+28.5%</span>
+      </div>
+    </div>
+
+    <h1 class="hero-title">The Mythos<br/><em>Mispricing</em></h1>
+    <p class="hero-subtitle">Why Fortinet Is the Best Risk-Adjusted Trade in Cybersecurity</p>
+    <p class="hero-thesis-line">Best unit economics in enterprise cybersecurity, priced as a commodity hardware vendor.</p>
+
+    <div class="hero-kpis">
+      <div class="kpi-card">
+        <div class="kpi-value">8.2×</div>
+        <div class="kpi-label">EV / Revenue</div>
+        <div class="kpi-delta kpi-delta-bad">vs. 12.3× peer median</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value">36.8%</div>
+        <div class="kpi-label">Adj. FCF Margin</div>
+        <div class="kpi-delta kpi-delta-good">#1 in cohort</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value">51.0</div>
+        <div class="kpi-label">Rule of 40</div>
+        <div class="kpi-delta kpi-delta-neutral">matches peer median</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value">31%</div>
+        <div class="kpi-label">GAAP Op. Margin</div>
+        <div class="kpi-delta kpi-delta-good">only positive in cohort</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value">$7.55B</div>
+        <div class="kpi-label">FY2025 Billings</div>
+        <div class="kpi-delta kpi-delta-good">+15.6% YoY</div>
+      </div>
+    </div>
+
+    <a href="#dcf" class="hero-cta">Explore the Model <span aria-hidden="true">↓</span></a>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     EXECUTIVE SUMMARY
+════════════════════════════════════════════════ -->
+<section class="section exec-summary" id="summary">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">The Thesis</span>
+      <h2>Variant Perception in Four Points</h2>
+    </div>
+    <div class="exec-bullets">
+      <div class="exec-bullet">
+        <div class="bullet-number">01</div>
+        <div class="bullet-content">
+          <h3>Sector Misprice, Not Fundamental Deterioration</h3>
+          <p>The March 27, 2026 release of Anthropic's Claude Mythos triggered an indiscriminate cybersecurity sell-off. CrowdStrike fell 9.8%. FTNT — a company with 67% recurring service revenue, in-house ASIC silicon, and zero China supply-chain exposure — fell alongside it. The market confused a hardware-in-transition narrative with a fundamental deterioration story. It is neither.</p>
+        </div>
+      </div>
+      <div class="exec-bullet">
+        <div class="bullet-number">02</div>
+        <div class="bullet-content">
+          <h3>The Best Unit Economics in the Cohort, at the Lowest Multiple</h3>
+          <p>FTNT generates 36.8% adj. FCF margins, 31% GAAP operating margins, and a Rule of 40 score of 51 — yet trades at 8.2× EV/Revenue vs. a peer median of 12.3×. PANW (12.3×) and CRWD (22.3×) trade at substantial premiums despite inferior GAAP profitability. FTNT is priced for sub-10% growth when management is guiding 13% billings growth for FY2026.</p>
+        </div>
+      </div>
+      <div class="exec-bullet">
+        <div class="bullet-number">03</div>
+        <div class="bullet-content">
+          <h3>Three Converging Catalysts Building Through 2027</h3>
+          <p>~350,000 FortiGate units still pending refresh through 2027, with SASE billings growing 40% YoY and now representing 27% of total billings. Federal Zero Trust mandates (White House March 11 Cyber Strategy) favor Fortinet's Sovereign SASE — the only solution satisfying FedRAMP/ITAR without cloud dependency. FortiOS 8.0 agentic AI positions FTNT in the AI-native defense layer.</p>
+        </div>
+      </div>
+      <div class="exec-bullet">
+        <div class="bullet-number">04</div>
+        <div class="bullet-content">
+          <h3>Asymmetric Payoff — Bear Case Still Wins</h3>
+          <p>Base case DCF yields a full 5-year intrinsic value of $141 (+71%). At 40% partial convergence, the 12-month target is $106 (+28.5%). Even the bear case (10% CAGR, FCF margin compressing to 33%) implies a 12-month target of $93 (+12.4%). The downside is structurally limited by $10.25B in buyback authorization and $2.5B in annual FCF generation.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     INTERACTIVE DCF MODEL
+════════════════════════════════════════════════ -->
+<section class="section dcf-section" id="dcf">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Valuation</span>
+      <h2>5-Year DCF Model</h2>
+      <p class="section-desc">9% WACC · 28× Terminal FCF Multiple · 743.6M shares · $2.59B net cash · Base year (FY2025): $6.80B revenue, 36.8% FCF margin</p>
+    </div>
+
+    <div class="dcf-methodology">
+      <p><strong>Methodology:</strong> Full intrinsic value = PV of 5-year FCFs + PV of terminal value (28× Yr5 FCF) + net cash, divided by shares outstanding. 12-month target = $82.53 + 40% × (intrinsic − $82.53), reflecting partial convergence to intrinsic value over one year.</p>
+    </div>
+
+    <!-- Scenario Toggles -->
+    <div class="scenario-toggles" role="tablist" aria-label="DCF Scenarios">
+      <button class="scenario-btn scenario-btn--bull" role="tab" data-scenario="bull" aria-selected="false" aria-controls="scenario-panel">
+        <span class="scenario-icon">▲</span> Bull
+      </button>
+      <button class="scenario-btn scenario-btn--base active" role="tab" data-scenario="base" aria-selected="true" aria-controls="scenario-panel">
+        <span class="scenario-icon">●</span> Base
+      </button>
+      <button class="scenario-btn scenario-btn--bear" role="tab" data-scenario="bear" aria-selected="false" aria-controls="scenario-panel">
+        <span class="scenario-icon">▼</span> Bear
+      </button>
+    </div>
+
+    <!-- Scenario Panel -->
+    <div class="scenario-panel" id="scenario-panel" role="tabpanel">
+      <div class="scenario-headline">
+        <span class="scenario-name" id="sc-name">Base Case</span>
+        <span class="scenario-desc-text" id="sc-desc">14% Revenue CAGR · FCF margin stable at 37%</span>
+      </div>
+
+      <div class="dcf-metrics">
+        <div class="dcf-metric">
+          <div class="dcf-metric-label">Revenue CAGR</div>
+          <div class="dcf-metric-value" id="sc-cagr">14%</div>
+        </div>
+        <div class="dcf-metric">
+          <div class="dcf-metric-label">Yr5 FCF Margin</div>
+          <div class="dcf-metric-value" id="sc-fcf-margin">37%</div>
+        </div>
+        <div class="dcf-metric">
+          <div class="dcf-metric-label">Year 5 Revenue</div>
+          <div class="dcf-metric-value" id="sc-yr5-rev">$13.09B</div>
+        </div>
+        <div class="dcf-metric">
+          <div class="dcf-metric-label">Year 5 FCF</div>
+          <div class="dcf-metric-value" id="sc-yr5-fcf">$4.84B</div>
+        </div>
+        <div class="dcf-metric dcf-metric--highlight">
+          <div class="dcf-metric-label">Full Intrinsic Value</div>
+          <div class="dcf-metric-value" id="sc-intrinsic">$141.38</div>
+          <div class="dcf-metric-sub" id="sc-intrinsic-upside">+71.3% vs. $82.53</div>
+        </div>
+        <div class="dcf-metric dcf-metric--primary">
+          <div class="dcf-metric-label">12-Month Target</div>
+          <div class="dcf-metric-value" id="sc-target">$106.07</div>
+          <div class="dcf-metric-sub" id="sc-target-upside">+28.5% upside</div>
+        </div>
+      </div>
+
+      <!-- Year-by-year mini table -->
+      <div class="dcf-table-wrap">
+        <table class="dcf-table" id="dcf-table">
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Revenue</th>
+              <th>FCF Margin</th>
+              <th>FCF</th>
+              <th>PV of FCF</th>
+            </tr>
+          </thead>
+          <tbody id="dcf-tbody">
+            <!-- filled by JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Visual price bar -->
+      <div class="price-bar-wrap">
+        <div class="price-bar-label">Price Spectrum</div>
+        <div class="price-bar-track">
+          <div class="price-bar-fill" id="price-bar-fill"></div>
+          <div class="price-bar-marker" id="price-bar-current" style="left:0%">
+            <span class="price-bar-tag">$82.53<br/>Current</span>
+          </div>
+          <div class="price-bar-marker price-bar-marker--target" id="price-bar-target" style="left:50%">
+            <span class="price-bar-tag">12m Target</span>
+          </div>
+          <div class="price-bar-marker price-bar-marker--intrinsic" id="price-bar-intrinsic" style="left:80%">
+            <span class="price-bar-tag">Intrinsic</span>
+          </div>
+        </div>
+        <div class="price-bar-endpoints">
+          <span>$60</span>
+          <span id="price-bar-max-label">$200</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     TRADING COMPS
+════════════════════════════════════════════════ -->
+<section class="section comps-section" id="comps">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Relative Valuation</span>
+      <h2>Trading Comps</h2>
+      <p class="section-desc">as of April 4, 2026 · EV/EBITDA uses non-GAAP adj. EBITDA · Rule of 40 = Rev Growth % + FCF Margin %</p>
+    </div>
+
+    <div class="comps-table-wrap">
+      <table class="comps-table">
+        <thead>
+          <tr>
+            <th>Company</th>
+            <th>EV</th>
+            <th>EV / Rev</th>
+            <th>EV / EBITDA</th>
+            <th>EV / FCF</th>
+            <th>FCF Margin</th>
+            <th>Rule of 40</th>
+            <th>GAAP Op Mgn</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="comps-row">
+            <td class="comps-ticker"><span class="ticker-badge">CRWD</span> CrowdStrike</td>
+            <td>$107.5B</td>
+            <td>22.3×</td>
+            <td>102.7×</td>
+            <td>87.0×</td>
+            <td>25.7%</td>
+            <td>47.4</td>
+            <td class="negative">(6%)</td>
+          </tr>
+          <tr class="comps-row">
+            <td class="comps-ticker"><span class="ticker-badge">PANW</span> Palo Alto Nw.</td>
+            <td>$113.4B</td>
+            <td>12.3×</td>
+            <td>54.2×</td>
+            <td>32.7×</td>
+            <td>37.6%</td>
+            <td>52.5</td>
+            <td class="positive">13%</td>
+          </tr>
+          <tr class="comps-row">
+            <td class="comps-ticker"><span class="ticker-badge">ZS</span> Zscaler</td>
+            <td>$43.4B</td>
+            <td>16.2×</td>
+            <td>273.0×</td>
+            <td>53.7×</td>
+            <td>30.2%</td>
+            <td>53.5</td>
+            <td class="negative">(5%)</td>
+          </tr>
+          <tr class="comps-row">
+            <td class="comps-ticker"><span class="ticker-badge">S</span> SentinelOne</td>
+            <td>$4.1B</td>
+            <td>4.1×</td>
+            <td class="muted-cell">NM</td>
+            <td>53.9×</td>
+            <td>7.6%</td>
+            <td>29.5</td>
+            <td class="negative">(32%)</td>
+          </tr>
+          <tr class="comps-row comps-row-median">
+            <td class="comps-ticker"><em>Peer Median</em></td>
+            <td>—</td>
+            <td>12.3×</td>
+            <td>78.5×</td>
+            <td>53.7×</td>
+            <td>30.0%</td>
+            <td>51.0</td>
+            <td>—</td>
+          </tr>
+          <tr class="comps-row comps-row-ftnt">
+            <td class="comps-ticker"><span class="ticker-badge ticker-badge-ftnt">FTNT</span> <strong>Fortinet</strong></td>
+            <td><strong>$56.0B</strong></td>
+            <td class="ftnt-highlight"><strong>8.2×</strong></td>
+            <td class="ftnt-highlight"><strong>21.8×</strong></td>
+            <td class="ftnt-highlight"><strong>22.4×</strong></td>
+            <td class="ftnt-highlight positive"><strong>36.8%</strong></td>
+            <td><strong>51.0</strong></td>
+            <td class="positive"><strong>31%</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="comps-footnote">
+      GAAP operating margin is the clearest differentiator: FTNT is the only company in the cohort generating positive GAAP operating income at scale (31% margin). ZS EBITDA thin ($159M on $2.67B revenue) → high multiple. S EBITDA negative → NM.
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     WHY NOT CROWDSTRIKE?
+════════════════════════════════════════════════ -->
+<section class="section why-not-section" id="why-not">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">The Better Trade</span>
+      <h2>Why Not CrowdStrike?</h2>
+      <p class="section-desc">CRWD and FTNT both score in the top half of the cohort on Rule of 40. But the similarity ends there.</p>
+    </div>
+
+    <div class="versus-grid">
+      <div class="versus-card versus-card-crwd">
+        <div class="versus-ticker">CRWD</div>
+        <div class="versus-name">CrowdStrike</div>
+        <div class="versus-metrics">
+          <div class="versus-metric">
+            <span class="versus-metric-label">EV / Revenue</span>
+            <span class="versus-metric-value versus-bad">22.3×</span>
+          </div>
+          <div class="versus-metric">
+            <span class="versus-metric-label">FCF Margin</span>
+            <span class="versus-metric-value versus-neutral">25.7%</span>
+          </div>
+          <div class="versus-metric">
+            <span class="versus-metric-label">Rule of 40</span>
+            <span class="versus-metric-value versus-neutral">47.4</span>
+          </div>
+          <div class="versus-metric">
+            <span class="versus-metric-label">GAAP Op. Margin</span>
+            <span class="versus-metric-value versus-bad">(6%)</span>
+          </div>
+          <div class="versus-metric">
+            <span class="versus-metric-label">EV / FCF</span>
+            <span class="versus-metric-value versus-bad">87.0×</span>
+          </div>
+        </div>
+        <div class="versus-verdict versus-verdict-crwd">
+          Paying 2.7× more on revenue for lower FCF margin, negative GAAP income, and 87× EV/FCF.
+        </div>
+      </div>
+
+      <div class="versus-divider">
+        <div class="versus-vs">VS</div>
+      </div>
+
+      <div class="versus-card versus-card-ftnt">
+        <div class="versus-ticker versus-ticker-ftnt">FTNT</div>
+        <div class="versus-name">Fortinet</div>
+        <div class="versus-metrics">
+          <div class="versus-metric">
+            <span class="versus-metric-label">EV / Revenue</span>
+            <span class="versus-metric-value versus-good">8.2×</span>
+          </div>
+          <div class="versus-metric">
+            <span class="versus-metric-label">FCF Margin</span>
+            <span class="versus-metric-value versus-good">36.8%</span>
+          </div>
+          <div class="versus-metric">
+            <span class="versus-metric-label">Rule of 40</span>
+            <span class="versus-metric-value versus-good">51.0</span>
+          </div>
+          <div class="versus-metric">
+            <span class="versus-metric-label">GAAP Op. Margin</span>
+            <span class="versus-metric-value versus-good">+31%</span>
+          </div>
+          <div class="versus-metric">
+            <span class="versus-metric-label">EV / FCF</span>
+            <span class="versus-metric-value versus-good">22.4×</span>
+          </div>
+        </div>
+        <div class="versus-verdict versus-verdict-ftnt">
+          Better FCF margin, higher Rule of 40, only profitable company on GAAP — at one-third the valuation.
+        </div>
+      </div>
+    </div>
+
+    <div class="vs-summary">
+      CRWD's premium is justified by superior ARR growth (+24% YoY) and platform stickiness. But at 22.3× EV/Revenue and 87× EV/FCF, the margin for error is zero. FTNT at 8.2× EV/Revenue and 22.4× EV/FCF is priced for <em>no</em> re-acceleration — making it the more asymmetric long.
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     CATALYST TIMELINE
+════════════════════════════════════════════════ -->
+<section class="section catalyst-section" id="catalysts">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Upcoming Catalysts</span>
+      <h2>Catalyst Timeline</h2>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline-item timeline-past">
+        <div class="timeline-dot timeline-dot-past"></div>
+        <div class="timeline-date">Mar 11, 2026</div>
+        <div class="timeline-content">
+          <h3>White House Cyber Strategy</h3>
+          <p>Mandates Zero Trust across federal agencies, directs agencies to source from US vendors. Fortinet's Sovereign SASE is uniquely positioned for FedRAMP/ITAR compliance.</p>
+          <span class="timeline-tag">FEDERAL MANDATE</span>
+        </div>
+      </div>
+
+      <div class="timeline-item timeline-past timeline-item-red">
+        <div class="timeline-dot timeline-dot-red"></div>
+        <div class="timeline-date">Mar 27, 2026</div>
+        <div class="timeline-content">
+          <h3>Anthropic Claude Mythos Release → Selloff</h3>
+          <p>AI security tool triggers indiscriminate cybersecurity sector sell-off. CRWD −9.8%, FTNT dragged down as collateral damage despite having 67% recurring service revenue and no SaaS AI disruption exposure.</p>
+          <span class="timeline-tag timeline-tag-red">THE MISPRICING EVENT</span>
+        </div>
+      </div>
+
+      <div class="timeline-item timeline-upcoming">
+        <div class="timeline-dot timeline-dot-upcoming"></div>
+        <div class="timeline-date">Apr 21, 2026</div>
+        <div class="timeline-content">
+          <h3>AI Cybersecurity Summit</h3>
+          <p>Fortinet's largest-ever customer-facing event. FortiOS 8.0 agentic AI SOC workflows showcased to CISOs reassessing architectures post-Anthropic. Potential catalyst for enterprise pipeline acceleration.</p>
+          <span class="timeline-tag">UPCOMING</span>
+        </div>
+      </div>
+
+      <div class="timeline-item timeline-upcoming timeline-item-primary">
+        <div class="timeline-dot timeline-dot-primary"></div>
+        <div class="timeline-date">May 2026</div>
+        <div class="timeline-content">
+          <h3>Q1 2026 Earnings — Primary Catalyst Check</h3>
+          <p>Confirm SASE billings sustain &gt;35% YoY growth and FY2026 product revenue guidance is reaffirmed. This is the primary data point for multiple re-rating. Watch SASE as % of total billings (currently 27%).</p>
+          <span class="timeline-tag timeline-tag-primary">KEY CHECK</span>
+        </div>
+      </div>
+
+      <div class="timeline-item timeline-future">
+        <div class="timeline-dot timeline-dot-future"></div>
+        <div class="timeline-date">Late 2026</div>
+        <div class="timeline-content">
+          <h3>First Firewall Refresh Wave Completes</h3>
+          <p>~650,000 FortiGate units reach end-of-service. Over 55% of large enterprise refresh customers are simultaneously adopting FortiSASE, driving multi-year service contract attach.</p>
+          <span class="timeline-tag">HARDWARE CATALYST</span>
+        </div>
+      </div>
+
+      <div class="timeline-item timeline-future">
+        <div class="timeline-dot timeline-dot-future"></div>
+        <div class="timeline-date">2027</div>
+        <div class="timeline-content">
+          <h3>Second Refresh Wave — 350,000 Additional Units</h3>
+          <p>Lower-end FortiGate units reach EoS. Provides continued product revenue visibility even as SASE scales. Management guided 4–6 more quarters of sustained product demand as of mid-2025.</p>
+          <span class="timeline-tag">HARDWARE CATALYST</span>
+        </div>
+      </div>
+
+      <div class="timeline-item timeline-future">
+        <div class="timeline-dot timeline-dot-future"></div>
+        <div class="timeline-date">FY2027</div>
+        <div class="timeline-content">
+          <h3>CMMC 2.0 Enforcement Deadline</h3>
+          <p>300,000+ defense industrial base companies must achieve CMMC 2.0 certification. Creates a large, time-bounded spending mandate for FortiGate and FortiSASE across the federal supply chain.</p>
+          <span class="timeline-tag">FEDERAL MANDATE</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     RISK MATRIX
+════════════════════════════════════════════════ -->
+<section class="section risk-section" id="risks">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Risk Assessment</span>
+      <h2>Risk Matrix</h2>
+    </div>
+
+    <div class="risk-grid">
+
+      <div class="risk-card risk-medium-high">
+        <div class="risk-header">
+          <span class="risk-severity risk-severity-mh">MEDIUM-HIGH</span>
+        </div>
+        <h3>Hardware Cyclicality</h3>
+        <p>Firewall refresh completes by 2027; SASE must absorb the billings gap or growth stalls.</p>
+        <div class="risk-mitigant">
+          <strong>Mitigant:</strong> SASE billings +40% YoY in Q4'25, now 27% of total. SecOps ARR +35%. Billings guidance raised to 13% for FY2026.
+        </div>
+      </div>
+
+      <div class="risk-card risk-medium">
+        <div class="risk-header">
+          <span class="risk-severity risk-severity-m">MEDIUM</span>
+        </div>
+        <h3>SASE Competition</h3>
+        <p>Zscaler (9.7% SASE mindshare) and PANW Prisma Access are cloud-native with deeper SSE capabilities.</p>
+        <div class="risk-mitigant">
+          <strong>Mitigant:</strong> FTNT wins on Sovereign SASE for gov/regulated, TCO ~33% below ZS, OT/ICS security coverage cloud-only vendors lack.
+        </div>
+      </div>
+
+      <div class="risk-card risk-medium">
+        <div class="risk-header">
+          <span class="risk-severity risk-severity-m">MEDIUM</span>
+        </div>
+        <h3>Hardware Margin Pressure</h3>
+        <p>DRAM prices rising 60–70% in 2026; tariff uncertainty on component supply chain.</p>
+        <div class="risk-mitigant">
+          <strong>Mitigant:</strong> FortiASIC designed in-house at TSMC; FTNT has historically passed through BOM cost increases. 67% service revenue provides insulation.
+        </div>
+      </div>
+
+      <div class="risk-card risk-medium">
+        <div class="risk-header">
+          <span class="risk-severity risk-severity-m">MEDIUM</span>
+        </div>
+        <h3>Growth Deceleration</h3>
+        <p>Revenue slowed from 32% (FY2022) to 14% (FY2025); consensus expects ~11% for FY2026.</p>
+        <div class="risk-mitigant">
+          <strong>Mitigant:</strong> At 8.2× EV/Rev, priced for sub-10% growth. Bear case 12m target ($93) implies +12.4% upside. Rerating to 12.3× median on $7.75B FY2026E implies ~$132/share.
+        </div>
+      </div>
+
+      <div class="risk-card risk-low-medium">
+        <div class="risk-header">
+          <span class="risk-severity risk-severity-lm">LOW-MEDIUM</span>
+        </div>
+        <h3>AI Disruption</h3>
+        <p>AI coding tools (Claude Mythos) could reduce demand by automating vulnerability patching.</p>
+        <div class="risk-mitigant">
+          <strong>Mitigant:</strong> AI creates more attack surface — AI-assisted attacks up 400% in 2025. FortiOS 8.0 agentic AI competes in the defense layer. Network security not replaced by code tools.
+        </div>
+      </div>
+
+      <div class="risk-card risk-low">
+        <div class="risk-header">
+          <span class="risk-severity risk-severity-l">LOW</span>
+        </div>
+        <h3>Federal Budget Risk</h3>
+        <p>Agency IT spending under DOGE-era scrutiny; federal budget headwinds.</p>
+        <div class="risk-mitigant">
+          <strong>Mitigant:</strong> No single customer &gt;10% of revenue. Zero Trust mandate (EO 14028, 2026 Cyber Strategy) creates legislative tailwinds partially offsetting discretionary headwinds.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     RECOMMENDATION FOOTER CARD
+════════════════════════════════════════════════ -->
+<section class="section recommendation-section" id="recommendation">
+  <div class="container">
+    <div class="rec-card">
+      <div class="rec-badge">RECOMMENDATION</div>
+      <div class="rec-main">
+        <div class="rec-action">LONG FTNT</div>
+        <div class="rec-target-row">
+          <div class="rec-metric">
+            <div class="rec-metric-val">$106.07</div>
+            <div class="rec-metric-label">12-Month Target</div>
+          </div>
+          <div class="rec-divider-v"></div>
+          <div class="rec-metric">
+            <div class="rec-metric-val rec-upside">+28.5%</div>
+            <div class="rec-metric-label">Upside</div>
+          </div>
+          <div class="rec-divider-v"></div>
+          <div class="rec-metric">
+            <div class="rec-metric-val">$141.38</div>
+            <div class="rec-metric-label">Full Intrinsic Value</div>
+          </div>
+          <div class="rec-divider-v"></div>
+          <div class="rec-metric">
+            <div class="rec-metric-val rec-bear">$92.77</div>
+            <div class="rec-metric-label">Bear Case Target</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rec-catalyst-check">
+        <div class="rec-check-header">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+          Primary Catalyst Check — Q1 2026 Earnings (est. May 2026)
+        </div>
+        <p>Confirm SASE billings sustain &gt;35% YoY growth and FY2026 product revenue guidance is reaffirmed. Sustained SASE billings deceleration below 25% for two consecutive quarters would challenge the variant thesis and warrant reassessment.</p>
+      </div>
+
+      <div class="rec-methodology">
+        12-month target uses 40% partial convergence to base case intrinsic value ($141.38) — a standard buy-side convention reflecting that undervalued stocks rarely close the full discount in one year. WACC: 9% · Terminal Multiple: 28× · Net Cash: $2.59B · Shares: 743.6M
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     PAGE FOOTER
+════════════════════════════════════════════════ -->
+<footer class="page-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-disclaimer">
+        <strong>Disclaimer:</strong> This analysis is produced for informational purposes only and does not constitute investment advice or an offer to buy or sell any security. All financial data sourced from Fortinet 10-K/10-Q filings (FY2023–FY2025), company earnings releases, and public market data as of April 4, 2026. DCF assumptions are illustrative; actual results may differ materially.
+      </div>
+      <div class="footer-sources">
+        Sources: <a href="https://perplexity.ai/finance/FTNT" target="_blank" rel="noopener">Fortinet Financials (Perplexity Finance)</a> · Fortinet 10-K FY2025 · White House 2026 National Cyber Strategy · Fortinet Q4 2025 Earnings Supplement
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+<script data-pplx-inline-edit>
+(function(){
+  if(window===window.top)return;
+  function inlineAll(orig,clone){
+    if(orig.nodeType!==1)return;
+    try{
+      var cs=getComputedStyle(orig);
+      var t='';
+      for(var i=0;i<cs.length;i++){t+=cs[i]+':'+cs.getPropertyValue(cs[i])+';';}
+      clone.style.cssText=t;
+    }catch(e){}
+    var oc=orig.children,cc=clone.children;
+    for(var j=0;j<oc.length&&j<cc.length;j++){inlineAll(oc[j],cc[j]);}
+  }
+  function stripExternal(clone){
+    var imgs=clone.querySelectorAll('img');
+    for(var i=0;i<imgs.length;i++){
+      var s=imgs[i].getAttribute('src');
+      if(s&&!s.startsWith('data:'))imgs[i].removeAttribute('src');
+    }
+    var all=clone.querySelectorAll('*');
+    for(var i=0;i<all.length;i++){
+      var st=all[i].style.cssText;
+      if(st&&st.indexOf('url(')>=0){
+        all[i].style.cssText=st.replace(/url\(["']?(?!data:)[^)"']*["']?\)/gi,'none');
+      }
+    }
+  }
+  window.addEventListener('message',function(e){
+    if(!e.data||e.data.type!=='INLINE_EDIT_CAPTURE_REQUEST')return;
+    var scrollX=window.scrollX||window.pageXOffset||0;
+    var scrollY=window.scrollY||window.pageYOffset||0;
+    var w=window.innerWidth,h=window.innerHeight;
+    try{
+      var clone=document.documentElement.cloneNode(true);
+      var rm=clone.querySelectorAll('script,link[rel="stylesheet"],style');
+      for(var i=0;i<rm.length;i++){rm[i].remove();}
+      inlineAll(document.documentElement,clone);
+      stripExternal(clone);
+      var html=new XMLSerializer().serializeToString(clone);
+      var svg='<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'">'
+        +'<foreignObject width="100%" height="100%">'
+        +'<div xmlns="http://www.w3.org/1999/xhtml" style="width:'+w+'px;height:'+h+'px;overflow:hidden">'
+        +'<div style="transform:translate(-'+scrollX+'px,-'+scrollY+'px);transform-origin:top left">'
+        +html+'</div></div></foreignObject></svg>';
+      var svgUrl='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+      var img=new Image();
+      img.onload=function(){
+        var c=document.createElement('canvas');c.width=w;c.height=h;
+        c.getContext('2d').drawImage(img,0,0);
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:c.toDataURL('image/png'),scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.onerror=function(){
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.src=svgUrl;
+    }catch(err){
+      window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+    }
+  });
+})();
+</script></body>
+</html>
