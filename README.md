@@ -2,8 +2,12 @@
 
 A long-equity thesis on Fortinet ($FTNT) submitted to the Perplexity Computer Stock Pitch Competition, April 2026.
 
+**Live site:** https://rene-math97.github.io/ftnt-mythos-mispricing/
+
 **12-month target:** $106 (+28.5% upside from $82.53)
 **Thesis in one line:** FTNT has the best unit economics in enterprise cybersecurity (36.8% FCF margin, 31% GAAP operating margin) and sold off as collateral damage in the March 27, 2026 Anthropic Claude "Mythos" cybersecurity selloff — a non-fundamental dislocation creating an asymmetric entry point.
+
+![Web app hero](web-app/qa-hero.png)
 
 ## Repo contents
 
@@ -31,6 +35,8 @@ Original research direction was long CRWD. A full DCF across bull/base/bear scen
 - Bull case: +45%
 - Base case: +28.5%
 - Bear case: +12% (still positive — downside is cushioned by FCF yield and buyback authorization)
+
+Scenario assumptions (revenue growth, operating margin, terminal multiple) are spelled out in the DCF section of the web app and the PDF.
 
 ---
 
